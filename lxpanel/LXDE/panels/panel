@@ -113,6 +113,23 @@ Plugin {
   }
 }
 Plugin {
+  type=cpu
+  Config {
+  }
+}
+Plugin {
+  type=xkb
+  Config {
+    Model=pc105
+    LayoutsList=us,cz
+    VariantsList=,
+    ToggleOpt=grp:shifts_toggle
+    DisplayType=1
+    FlagSize=1
+    KeepSysLayouts=0
+  }
+}
+Plugin {
   type=dclock
   Config {
     ClockFmt=%R
